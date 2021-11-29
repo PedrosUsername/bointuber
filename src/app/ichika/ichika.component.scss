@@ -1,0 +1,168 @@
+.square__outer {
+    height: 275px;
+    width: 189px;
+    cursor: grab;
+}
+
+.square__inter {
+    position: relative;
+    border: 5px solid rgba(167, 69, 90, 0.493);
+    border-radius: 50%;
+
+    background-color: transparent;
+    background-image: url("/assets/ichika.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+
+    height: 100%;
+    width: 100%;
+}
+
+.pic {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+
+    background-color: transparent;
+    background-image: url("/assets/rcboba.png");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+    height: 100%;
+    width: 100%;
+
+    transition: top 0.2s, transform 0.4s;
+}
+
+.rubor__left {
+    visibility: hidden;
+
+    position: absolute;
+    top: 30.5%;
+    left: 36.5%;
+    background-color: red;
+    opacity: 0.2;
+    border-radius: 50%;
+    height: 3%;
+    width: 6%;
+    transition: visibility 1s;
+}
+.rubor__right {
+    visibility: hidden;
+
+    position: absolute;
+    top: 30.5%;
+    left: 57.8%;
+    background-color: red;
+    box-shadow: 20px 20px 10px grey;
+    opacity: 0.2;
+    border-radius: 50%;
+    height: 3%;
+    width: 6%;
+    transition: visibility 1s;
+}
+.rubor {
+    visibility: visible;
+}
+
+.q1 {
+    position: absolute;
+    top: 75%;
+    left: 25%;
+
+    background-color: transparent;
+    height: 25%;
+    width: 25%;
+}
+.move__q1 {
+    top: -3.5%;
+}
+.q2 {
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    
+    background-color: transparent;
+    height: 25%;
+    width: 25%;
+}
+.move__q2 {
+    top: -3.5%;
+}
+.q3 {
+    position: absolute;
+    top: 75%;
+    left: 0%;
+    
+    background-color: transparent;
+    height: 25%;
+    width: 25%;
+}
+.move__q3 {
+    top: -5%;
+    transform: skewY(10deg);
+}
+.q4 {
+    position: absolute;
+    top: 75%;
+    left: 75%;
+    
+    background-color: transparent;
+    height: 25%;
+    width: 25%;
+}
+.move__q4 {
+    top: -5%;
+    transform: skewY(-10deg);
+}
+.q5 {
+    position: absolute;
+    top: 50%;
+    left: 25%;
+
+    background-color: transparent;
+    height: 25%;
+    width: 25%;
+}
+.move__q5 {
+    top: -5%;
+    transform: scaleX(0.9);
+}
+.q6 {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    
+    background-color: transparent;
+    height: 25%;
+    width: 25%;
+}
+.move__q6 {
+    top: -5%;
+    transform: scaleX(0.9);
+}
+.q7 {
+    position: absolute;
+    top: 62%;
+    left: 0%;
+    
+    background-color: transparent;
+    height: 13%;
+    width: 25%;
+}
+.move__q7 {
+    transform: scaleX(1.06);
+}
+.q8 {
+    position: absolute;
+    top: 62%;
+    left: 75%;
+    
+    background-color: transparent;
+    height: 13%;
+    width: 25%;
+}
+.move__q8 {
+    transform: scaleX(1.06);
+}

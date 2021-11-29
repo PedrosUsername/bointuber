@@ -1,0 +1,51 @@
+<div class="square__outer">
+    <div class="square__inter">
+      <div
+      [class.move__q1]="moveQ1"
+      [class.move__q2]="moveQ2"
+      [class.move__q3]="moveQ3"
+      [class.move__q4]="moveQ4"
+      [class.move__q5]="moveQ5"
+      [class.move__q6]="moveQ6"
+      [class.move__q7]="moveQ7"
+      [class.move__q8]="moveQ8"
+      class="pic"></div>
+  
+      <div class="rubor__left" [class.rubor]="rubor"></div>
+      <div class="rubor__right" [class.rubor]="rubor"></div>
+
+      <div
+      (mouseenter)="handleMouseEnterQ1()"
+      (mouseleave)="handleMouseLeaveQ1()"
+      class="q1"></div>
+      <div
+      (mouseenter)="handleMouseEnterQ2()"
+      (mouseleave)="handleMouseLeaveQ2()"
+      class="q2"></div>
+      <div
+      (mouseenter)="handleMouseEnterQ3()"
+      (mouseleave)="handleMouseLeaveQ3()"
+      class="q3"></div>
+      <div
+      (mouseenter)="handleMouseEnterQ4()"
+      (mouseleave)="handleMouseLeaveQ4()"
+      class="q4"></div>
+  
+      <div
+      (mouseenter)="handleMouseEnterQ5()"
+      (mouseleave)="handleMouseLeaveQ5()"
+      class="q5"></div>
+      <div
+      (mouseenter)="handleMouseEnterQ6()"
+      (mouseleave)="handleMouseLeaveQ6()"
+      class="q6"></div>
+      <div
+      (mouseenter)="handleMouseEnterQ7()"
+      (mouseleave)="handleMouseLeaveQ7()"
+      class="q7"></div>
+      <div
+      (mouseenter)="handleMouseEnterQ8()"
+      (mouseleave)="handleMouseLeaveQ8()"
+      class="q8"></div>
+    </div>
+  </div>
