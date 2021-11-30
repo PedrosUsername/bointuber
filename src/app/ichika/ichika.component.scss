@@ -3,7 +3,12 @@
     width: 22.7vw;
     cursor: grab;
 }
-
+@media screen and (max-width: 880px) {
+    .square__outer {
+        height: 80vh;
+        width: 55vh;
+    }
+  }
 .square__inter {
     position: relative;
     border: 5px solid rgba(167, 69, 90, 0.493);
