@@ -1,12 +1,12 @@
 .square__outer {
-    height: 33vw;
-    width: 22.7vw;
+    height: 393px;
+    width: 269px;
     cursor: grab;
 }
-@media screen and (max-width: 880px) {
+@media screen and (max-width: 293px) {
     .square__outer {
-        height: 80vh;
-        width: 55vh;
+        height: 320px;
+        width: 219px;
     }
   }
 .square__inter {
