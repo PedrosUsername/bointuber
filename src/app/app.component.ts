@@ -7,4 +7,12 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title="ichika";
+  hover_event = false;
+
+  handleMouseEnter(): void {
+    this.hover_event = true;
+  }
+  handleMouseLeave(): void {
+    this.hover_event = false;
+  }
 }
