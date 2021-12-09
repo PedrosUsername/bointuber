@@ -1,13 +1,15 @@
-  <a href="https://twitter.com/FairyIchika" target="_blank">
+  <div (mouseleave)="handleMouseLeave()" id="ghost"></div>
+  
+  <a (mouseenter)="handleMouseEnter()" href="https://twitter.com/FairyIchika" target="_blank">
     <img class="b00" src="/assets/pie.png" alt="background_element">
   </a>
-  <a href="https://www.youtube.com/watch?v=Z-hTJLAjST4&list=PLuZXyTcuGWHFg-YIWEpMm_0D92T6_12HZ" target="_blank">
+  <a (mouseenter)="handleMouseEnter()" href="https://www.youtube.com/watch?v=Z-hTJLAjST4&list=PLuZXyTcuGWHFg-YIWEpMm_0D92T6_12HZ" target="_blank">
     <img class="b00" [class.b01]="hover_event" src="/assets/pizza.jpeg" alt="background_element">
   </a>
-  <a href="https://marshmallow-qa.com/fairyichika?utm_medium=twitter&utm_source=auto_promotion" target="_blank">
+  <a (mouseenter)="handleMouseEnter()" href="https://marshmallow-qa.com/fairyichika?utm_medium=twitter&utm_source=auto_promotion" target="_blank">
     <img class="b00" [class.b02]="hover_event" src="/assets/fajita.png" alt="background_element">
   </a>
-  <a href="https://yousei-ichika.fanbox.cc/posts/3092955?utm_campaign=manage_post_page&utm_medium=share&utm_source=twitter" target="_blank">
+  <a (mouseenter)="handleMouseEnter()" href="https://yousei-ichika.fanbox.cc/posts/3092955?utm_campaign=manage_post_page&utm_medium=share&utm_source=twitter" target="_blank">
     <img class="b00" [class.b03]="hover_event" src="/assets/tanaka.png" alt="background_element">
   </a>
   <a (mouseenter)="handleMouseEnter()">

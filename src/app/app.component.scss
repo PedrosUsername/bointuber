@@ -1,10 +1,9 @@
-#list {
-    position: relative;
-    list-style-type: none;
-    background-color: red;
-    margin: 0px;
-    padding: 0px;
+#ghost {
+    position: absolute;
+    top: 0px;
+    right: 0.9%;
     height: 100vh;
+    width: 10%;
 }
 
 img {
@@ -21,7 +20,7 @@ img {
     right: 2%;
     width: 7%;
 
-    transition: bottom 0.7s;
+    transition: bottom 0.5s;
 }
 
 .b00 {
