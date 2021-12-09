@@ -42,3 +42,19 @@ img {
 .b04 {
     bottom: 77%;
 }
+
+.baloon:hover {
+    border: 8px solid rgba(167, 69, 90, 0.493);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    .b00 {
+      display:none;
+    }
+  }
