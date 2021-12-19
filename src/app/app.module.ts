@@ -3,11 +3,13 @@ import { BrowserModule } from '@angular/platform-browser';
 
 import { AppComponent } from './app.component';
 import { IchikaComponent } from './ichika/ichika.component';
+import { SanaComponent } from './sana/sana.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    IchikaComponent
+    IchikaComponent,
+    SanaComponent
   ],
   imports: [
     BrowserModule
