@@ -1,7 +1,6 @@
 .square__outer {
     height: 393px;
-    width: 220px;
-    cursor: grab;
+    width: 215px;
 }
 @media screen and (max-width: 293px) {
     .square__outer {
@@ -15,7 +14,7 @@
     border-radius: 50%;
 
     background-color: transparent;
-    background-image: url("/assets/sana.png");
+    background-image: url("/assets/rushia.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -30,10 +29,7 @@
     left: 0%;
 
     background-color: transparent;
-    background-image: url("/assets/pcboba.png");
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position: center;
+
     height: 100%;
     width: 100%;
 

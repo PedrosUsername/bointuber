@@ -4,12 +4,14 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppComponent } from './app.component';
 import { IchikaComponent } from './ichika/ichika.component';
 import { SanaComponent } from './sana/sana.component';
+import { RushiaComponent } from './rushia/rushia.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IchikaComponent,
-    SanaComponent
+    SanaComponent,
+    RushiaComponent
   ],
   imports: [
     BrowserModule
