@@ -5,13 +5,15 @@ import { AppComponent } from './app.component';
 import { IchikaComponent } from './ichika/ichika.component';
 import { SanaComponent } from './sana/sana.component';
 import { RushiaComponent } from './rushia/rushia.component';
+import { HajimeComponent } from './hajime/hajime.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     IchikaComponent,
     SanaComponent,
-    RushiaComponent
+    RushiaComponent,
+    HajimeComponent
   ],
   imports: [
     BrowserModule
