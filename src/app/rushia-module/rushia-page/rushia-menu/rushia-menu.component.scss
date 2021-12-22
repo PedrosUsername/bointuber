@@ -1,0 +1,60 @@
+#ghost {
+    position: absolute;
+    top: 0px;
+    right: 0.9%;
+    height: 100vh;
+    width: 10%;
+}
+
+img {
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    
+    position: absolute;
+    background-color: white;
+    border: 4px solid rgba(167, 69, 90, 0.493);
+    border-radius: 50%;
+
+    right: 2%;
+    width: 7%;
+
+    transition: bottom 0.5s;
+}
+
+.b00 {
+    bottom: 1%;
+}
+
+.b01 {
+    bottom: 20%;
+}
+
+.b02 {
+    bottom: 39%;
+}
+
+.b03 {
+    bottom: 58%;
+}
+
+.b04 {
+    bottom: 77%;
+}
+
+.baloon:hover {
+    border: 8px solid rgba(167, 69, 90, 0.493);
+}
+
+
+
+
+
+
+
+@media screen and (max-width: 850px) {
+    .b00 {
+      display:none;
+    }
+  }
