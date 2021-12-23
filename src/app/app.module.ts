@@ -6,6 +6,7 @@ import { IchikaModule } from './ichika-module/ichika.module';
 import { HajimeModule } from './hajime-module/hajime.module';
 import { SanaModule } from './sana-module/sana.module';
 import { RushiaModule } from './rushia-module/rushia.module';
+import { MelModule } from './mel-module/mel.module';
 
 @NgModule({
   declarations: [
@@ -16,7 +17,8 @@ import { RushiaModule } from './rushia-module/rushia.module';
     IchikaModule,
     HajimeModule,
     SanaModule,
-    RushiaModule
+    RushiaModule,
+    MelModule
   ],
   providers: [],
   bootstrap: [AppComponent]
