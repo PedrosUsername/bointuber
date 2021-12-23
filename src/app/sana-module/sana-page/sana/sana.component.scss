@@ -1,6 +1,6 @@
 .square__outer {
     height: 393px;
-    width: 220px;
+    width: 212px;
     cursor: grab;
 }
 @media screen and (max-width: 293px) {
@@ -15,7 +15,7 @@
     border-radius: 50%;
 
     background-color: transparent;
-    background-image: url("/assets/sana.png");
+    background-image: url("/assets/sana.jpg");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -30,7 +30,7 @@
     left: 0%;
 
     background-color: transparent;
-    background-image: url("/assets/pcboba.png");
+    background-image: url("/assets/pcboba2.png");
     background-repeat: no-repeat;
     background-size: contain;
     background-position: center;
@@ -57,7 +57,7 @@
     visibility: hidden;
 
     position: absolute;
-    top: 29%;
+    top: 25%;
     left: 40%;
     background-color: transparent;
     box-shadow: 0px 30px 15px red;
