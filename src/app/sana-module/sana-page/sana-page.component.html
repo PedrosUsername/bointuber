@@ -3,7 +3,21 @@
 
   <app-sana-menu></app-sana-menu>
   
-  <div style="display: flex; flex-wrap: wrap; justify-content: center;">
+  <div id="bointuber__container">
+
+    <a id="arrow__container" (click)="onClick('ichika')">
+      <div id="arrow-left">
+          <div id="arrow-left-bite"></div>
+      </div>
+    </a>
+    
     <app-sana></app-sana>
+
+    <a id="arrow__container" (click)="onClick('mel')">
+      <div id="arrow-right">
+          <div id="arrow-right-bite"></div>
+      </div>
+    </a>
+
   </div>
 </section>

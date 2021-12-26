@@ -8,6 +8,7 @@ import { SanaModule } from './sana-module/sana.module';
 import { RushiaModule } from './rushia-module/rushia.module';
 import { MelModule } from './mel-module/mel.module';
 import { AppRoutingModule } from './app-routing.module';
+import { BridgeService } from './shared/bridge.service';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,9 @@ import { AppRoutingModule } from './app-routing.module';
     RushiaModule,
     MelModule
   ],
-  providers: [],
+  providers: [
+    BridgeService
+  ],
   bootstrap: [AppComponent]
 })
 export class AppModule { }

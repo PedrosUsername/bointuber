@@ -6,19 +6,19 @@
   <app-ichika-menu></app-ichika-menu>
 
   <div id="bointuber__container">
-
-    <a id="arrow__container" href="/hajime">
+    
+    <a id="arrow__container" (click)="onClick('hajime')">
       <div id="arrow-left">
-        <div id="arrow-left-bite"></div>
+          <div id="arrow-left-bite"></div>
       </div>
     </a>
-
+    
     <app-ichika></app-ichika>
 
-    <a id="arrow__container" href="/sana">
-      <div id="arrow-right">
-        <div id="arrow-right-bite"></div>
-      </div>
+    <a id="arrow__container" (click)="onClick('sana')">
+        <div id="arrow-right">
+            <div id="arrow-right-bite"></div>
+        </div>
     </a>
 
   </div>

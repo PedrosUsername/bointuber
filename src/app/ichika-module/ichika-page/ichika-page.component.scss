@@ -37,7 +37,7 @@ section {
     border: 7px solid #ff8497;
     border-radius: 12%;
     transform: rotate(45deg);
-    
+    cursor: pointer;
     transition: height 0.1s, width 0.1s;
 }
 #arrow-left:hover {
@@ -50,7 +50,7 @@ section {
     border-radius: 10%;
     height: 80%;
     width: 80%;
-    transform: rotate(0deg) translate(44%, -19%);
+    transform: rotate(0deg) translate(46%, -22%);
 }
 
 
@@ -78,5 +78,5 @@ section {
     border-radius: 10%;
     height: 80%;
     width: 80%;
-    transform: rotate(0deg) translate(-19%, 44%);
+    transform: rotate(0deg) translate(-22%, 46%);
 }

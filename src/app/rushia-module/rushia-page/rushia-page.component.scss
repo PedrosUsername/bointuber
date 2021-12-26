@@ -15,3 +15,69 @@ section {
         z-index: 0;
     }
 }
+
+
+
+#bointuber__container {
+    display: flex;
+    width: 50%;
+    margin: auto;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+#arrow__container {
+    height: 60px;
+    width: 60px;
+    align-self: flex-end;
+}
+#arrow-left {
+    height: 50px;
+    width: 50px;
+    background-color: #20dcbe;
+    border: 7px solid #0d192c;
+    border-radius: 12%;
+    transform: rotate(45deg);
+    cursor: pointer;    
+    transition: height 0.1s, width 0.1s;
+}
+#arrow-left:hover {
+    height: 60px;
+    width: 60px;
+}
+
+#arrow-left-bite {
+    background-color: #a2f0f0;
+    border-radius: 10%;
+    height: 80%;
+    width: 80%;
+    transform: rotate(0deg) translate(46%, -22%);
+}
+
+
+
+
+
+#arrow-right {
+    align-self: center;
+    height: 50px;
+    width: 50px;
+    background-color: #20dcbe;
+    border: 7px solid #0d192c;
+    border-radius: 12%;
+    transform: rotate(45deg);
+    cursor: pointer;
+    transition: height 0.1s, width 0.1s;
+}
+#arrow-right:hover {
+    height: 60px;
+    width: 60px;
+}
+
+#arrow-right-bite {
+    background-color: #a2f0f0;
+    border-radius: 10%;
+    height: 80%;
+    width: 80%;
+    transform: rotate(0deg) translate(-22%, 46%);
+}

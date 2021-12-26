@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { BridgeService } from 'src/app/shared/bridge.service';
 
 @Component({
   selector: 'app-sana-page',
@@ -7,9 +8,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class SanaPageComponent implements OnInit {
 
-  constructor() { }
+  constructor(
+    private bridge: BridgeService
+  ){}
 
   ngOnInit(): void {
+  }
+
+  onClick(message: string){
+    this.bridge.emitChange(message);
   }
 
 }
