@@ -2,22 +2,39 @@
   <h1>九<br>十<br>九<br>佐<br>命</h1>
 
   <app-sana-menu></app-sana-menu>
-  
+
   <div id="bointuber__container">
 
-    <a id="arrow__container" (click)="onClick('ichika')">
-      <div id="arrow-left">
-          <div id="arrow-left-bite"></div>
+    <a class="arrow__container" (click)="onClick('ichika')">
+      <div class="arrow">
+          <div class="bite arrow-left-bite"></div>
       </div>
     </a>
-    
+
     <app-sana></app-sana>
 
+    <a class="arrow__container" (click)="onClick('mel')">
+      <div class="arrow">
+          <div class="bite arrow-right-bite"></div>
+      </div>
+    </a>
+  
+  </div>
+
+  <div id="responsive__arrows">
+
+    <a id="arrow__container" (click)="onClick('ichika')">
+      <div class="arrow">
+          <div class="bite arrow-left-bite"></div>
+      </div>
+    </a>
+
     <a id="arrow__container" (click)="onClick('mel')">
-      <div id="arrow-right">
-          <div id="arrow-right-bite"></div>
+      <div class="arrow">
+          <div class="bite arrow-right-bite"></div>
       </div>
     </a>
 
   </div>
+
 </section>

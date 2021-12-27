@@ -17,7 +17,6 @@ section {
 }
 
 
-
 #bointuber__container {
     display: flex;
     width: 50%;
@@ -26,40 +25,12 @@ section {
     justify-content: space-around;
 }
 
-#arrow__container {
+.arrow__container {
     height: 60px;
     width: 60px;
     align-self: flex-end;
 }
-#arrow-left {
-    height: 50px;
-    width: 50px;
-    background-color: #20dcbe;
-    border: 7px solid #0d192c;
-    border-radius: 12%;
-    transform: rotate(45deg);
-    cursor: pointer;    
-    transition: height 0.1s, width 0.1s;
-}
-#arrow-left:hover {
-    height: 60px;
-    width: 60px;
-}
-
-#arrow-left-bite {
-    background-color: #a2f0f0;
-    border-radius: 10%;
-    height: 80%;
-    width: 80%;
-    transform: rotate(0deg) translate(46%, -22%);
-}
-
-
-
-
-
-#arrow-right {
-    align-self: center;
+.arrow {
     height: 50px;
     width: 50px;
     background-color: #20dcbe;
@@ -69,15 +40,49 @@ section {
     cursor: pointer;
     transition: height 0.1s, width 0.1s;
 }
-#arrow-right:hover {
+.arrow:hover {
     height: 60px;
     width: 60px;
 }
 
-#arrow-right-bite {
+.bite {
     background-color: #a2f0f0;
     border-radius: 10%;
     height: 80%;
     width: 80%;
+}
+
+.arrow-left-bite {
+    transform: rotate(0deg) translate(46%, -22%);
+}
+.arrow-right-bite {
     transform: rotate(0deg) translate(-22%, 46%);
+}
+
+
+
+#responsive__arrows {
+    display: none;
+
+    position: absolute;
+    left: 7%;
+    bottom: 5%;
+
+    width: 85%;
+    height: 60px;
+
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+
+@media screen and (max-width: 850px) {
+    #responsive__arrows {
+        display: flex;
+    }
+
+    #bointuber__container .arrow__container {
+        display: none;
+    }
 }
