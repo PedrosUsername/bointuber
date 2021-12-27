@@ -1,6 +1,7 @@
 .square__outer {
     height: 393px;
     width: 215px;
+    
 }
 @media screen and (max-width: 293px) {
     .square__outer {
@@ -13,7 +14,7 @@
     border: 5px solid rgba(167, 69, 90, 0.493);
     border-radius: 50%;
 
-    background-color: transparent;
+    background-color: white;
     background-image: url("/assets/rushia.png");
     background-repeat: no-repeat;
     background-size: contain;
