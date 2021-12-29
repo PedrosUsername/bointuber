@@ -1,5 +1,5 @@
 section {
-    background-color: rgb(212, 234, 243);
+    background-color: #fff;
     height: 100vh;
     width: 100vw;
     margin: 0px;
@@ -7,17 +7,14 @@ section {
     h1 {
         position: absolute;
         font-size: 3em;
-        left: 10%;
-        top: 16%;
-        color: rgb(56, 42, 255);
-        text-shadow: 2px 2px 1px rgb(247, 6, 207);
-        font-weight: lighter;
-        letter-spacing: 3px;
+        left: 14%;
+        top: 5%;
+        color: #efd1d1;
+        text-shadow: 5px 0px 0px #ce918f;
         margin: 0%;
         z-index: 0;
     }
 }
-
 
 
 
@@ -38,8 +35,8 @@ section {
 .arrow {
     height: 50px;
     width: 50px;
-    background-color: #9d1e54;
-    border: 7px solid #3d378e;
+    background-color: #ce918f;
+    border: 7px solid #775f7e;
     border-radius: 12%;
     transform: rotate(45deg);
     cursor: pointer;
@@ -51,7 +48,7 @@ section {
 }
 
 .bite {
-    background-color: #d4eaf3;
+    background-color: #fff;
     border-radius: 10%;
     height: 80%;
     width: 80%;

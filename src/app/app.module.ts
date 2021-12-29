@@ -9,6 +9,7 @@ import { RushiaModule } from './rushia-module/rushia.module';
 import { MelModule } from './mel-module/mel.module';
 import { AppRoutingModule } from './app-routing.module';
 import { BridgeService } from './shared/bridge.service';
+import { AmanoModule } from './amano-module/amano.module';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { BridgeService } from './shared/bridge.service';
     HajimeModule,
     SanaModule,
     RushiaModule,
-    MelModule
+    MelModule,
+    AmanoModule
   ],
   providers: [
     BridgeService
