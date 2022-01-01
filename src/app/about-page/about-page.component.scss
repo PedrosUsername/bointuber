@@ -1,0 +1,43 @@
+section {
+    position: relative;
+    background-color: lightcoral;
+    background-image: linear-gradient(to bottom right, lightblue, pink);
+    top: 0px;
+    left: 0px;
+    width: 100vw;
+    height: 100vh;
+}
+
+#card {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    height: 33%;
+    width: 33%;
+    background-color: rgba($color: rgb(59, 59, 59), $alpha: 0.1);
+    border: 3px solid rgba($color: rgb(0, 0, 0), $alpha: 0.1);
+    border-radius: 3%;
+}
+
+p {
+    position: absolute;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
+
+
+
+
+   
+  /* On screens that are 992px or less, set the background color to blue */
+  @media screen and (max-width: 892px) {
+    #card {
+      width: 66%;
+    }
+  }

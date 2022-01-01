@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
+import { AboutPageComponent } from './about-page/about-page.component';
 import { AmanoPageComponent } from './amano-module/amano-page/amano-page.component';
 import { HajimePageComponent } from './hajime-module/hajime-page/hajime-page.component';
 import { IchikaPageComponent } from './ichika-module/ichika-page/ichika-page.component';
@@ -14,6 +15,7 @@ const routes: Routes = [
   { path: 'rushia', component: RushiaPageComponent },
   { path: 'mel', component: MelPageComponent },
   { path: 'sana', component: SanaPageComponent },
+  { path: 'about', component: AboutPageComponent },
 
   { path: '', redirectTo: '/ichika', pathMatch: 'full' },  
 ];

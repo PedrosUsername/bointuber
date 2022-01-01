@@ -10,10 +10,12 @@ import { MelModule } from './mel-module/mel.module';
 import { AppRoutingModule } from './app-routing.module';
 import { BridgeService } from './shared/bridge.service';
 import { AmanoModule } from './amano-module/amano.module';
+import { AboutPageComponent } from './about-page/about-page.component';
 
 @NgModule({
   declarations: [
     AppComponent,
+    AboutPageComponent,
   ],
   imports: [
     AppRoutingModule,
