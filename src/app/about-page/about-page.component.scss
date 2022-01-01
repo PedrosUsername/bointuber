@@ -29,7 +29,37 @@ p {
 }
 
 
+.arrow__container {
+    height: 60px;
+    width: 60px;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+.arrow {
+    height: 50px;
+    width: 50px;
+    background-color: #a5aeb8;
+    border: 7px solid rgb(151, 151, 151);
+    border-radius: 12%;
+    transform: rotate(45deg);
+    cursor: pointer;
+    transition: height 0.1s, width 0.1s;
+}
+.arrow:hover {
+    height: 60px;
+    width: 60px;
+}
 
+.bite {
+    background-color: lightblue;
+    border-radius: 10%;
+    height: 80%;
+    width: 80%;
+}
+
+.arrow-left-bite {
+    transform: rotate(0deg) translate(46%, -22%);
+}
 
 
 
