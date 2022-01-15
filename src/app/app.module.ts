@@ -11,6 +11,7 @@ import { AppRoutingModule } from './app-routing.module';
 import { BridgeService } from './shared/bridge.service';
 import { AmanoModule } from './amano-module/amano.module';
 import { AboutPageComponent } from './about-page/about-page.component';
+import { ElaraModule } from './elara-module/elara.module';
 
 @NgModule({
   declarations: [
@@ -25,7 +26,8 @@ import { AboutPageComponent } from './about-page/about-page.component';
     SanaModule,
     RushiaModule,
     MelModule,
-    AmanoModule
+    AmanoModule,
+    ElaraModule
   ],
   providers: [
     BridgeService
